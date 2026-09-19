@@ -69,8 +69,9 @@ nav.main-nav a:hover{color:var(--gold-lt)}
 .price-card h3{font-size:21px;color:#fff;margin-bottom:10px}
 .price-card p.desc{font-size:14px;color:#c3c5cc;margin-top:10px}
 .value-list{list-style:none;margin-top:18px}
-.value-list li{font-size:14px;color:#c3c5cc;padding:9px 0;border-top:1px solid rgba(255,255,255,.08)}
+.value-list li{font-size:14px;color:#c3c5cc;padding:9px 0;border-top:1px solid rgba(255,255,255,.08);display:flex;justify-content:space-between;gap:10px}
 .value-list li:first-child{border-top:none}
+.value-list .tag{color:var(--gold-lt);white-space:nowrap;font-weight:600;font-family:Oswald,sans-serif;font-size:12px;letter-spacing:.06em;text-transform:uppercase}
 footer{background:var(--dark);color:#9a9ea8;padding:56px 0 24px;border-top:1px solid rgba(200,162,74,.2)}
 .footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px;margin-bottom:44px}
 .footer-brand .logo-text{margin-bottom:14px;display:inline-block}
@@ -205,13 +206,14 @@ nav.main-nav{display:none}
       <h2>What Does Every TAP Athlete Receive?</h2>
     </div>
     <ul class="value-list" style="max-width:720px">
-      <li><span>NBA Level Personalized Skills Training</span></li>
-      <li><span>Competitive Team Practice</span></li>
-      <li><span>Full Season Film and Analysis</span></li>
-      <li><span>Team Gear Package</span></li>
-      <li><span>Three Out of State Competitive Events</span></li>
-      <li><span>Full Season Content Package and Media Training</span></li>
-      <li><span>Professional Level Facilities &amp; Recovery at Swysh Den</span></li>
+      <li><span>NBA Level Personalized Skills Training</span><span class="tag">Included</span></li>
+      <li><span>Competitive Team Practice</span><span class="tag">Included</span></li>
+      <li><span>Full Season Film and Analysis</span><span class="tag">Included</span></li>
+      <li><span>Team Gear Package</span><span class="tag">Included</span></li>
+      <li><span>Three Out of State Competitive Events</span><span class="tag">Included</span></li>
+      <li><span>Full Season Content Package and Media Training</span><span class="tag">Included</span></li>
+      <li><span>Professional Level Facilities &amp; Recovery at Swysh Den</span><span class="tag">Included</span></li>
+      <li><span>Swysh Den Membership</span><span class="tag">Included</span></li>
     </ul>
     <p style="color:#a8abb4;font-size:14px;margin-top:16px;max-width:720px">Includes membership to Swysh Den, weight room training, jump training, Vertimax training, Thermotech Boots, massage guns, and a full care recovery package.</p>
   </div>
