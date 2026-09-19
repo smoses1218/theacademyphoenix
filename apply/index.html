@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apply | The Academy Phoenix</title>
+<meta name="description" content="Apply to join The Academy Phoenix High School or Post Grad Basketball Program in Scottsdale, AZ. Tell us about your athlete and we'll follow up.">
+<link rel="canonical" href="https://www.theacademyphoenix.org/apply/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#16181d;--dark:#0f1115;--dark2:#1b1f27;--gold:#c8a24a;--gold-lt:#e6c878;--gold-dk:#a8842f;--bg:#ffffff;--bg-soft:#f7f6f3;--line:#e6e8ee}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,.oswald{font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.02em;font-weight:700;line-height:1.08}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit;text-decoration:none}
+.container{max-width:1200px;margin:0 auto;padding:0 24px}
+.btn{display:inline-block;font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.06em;font-weight:600;font-size:14px;padding:16px 32px;border-radius:2px;cursor:pointer;border:2px solid transparent;transition:.2s}
+.btn-gold{background:linear-gradient(135deg,#e6c878,#a8842f);color:#0f1115;border-color:#c8a24a;box-shadow:0 3px 10px rgba(200,162,74,.4)}
+.btn-gold:hover{filter:brightness(1.08);transform:translateY(-1px)}
+.eyebrow{font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.18em;font-size:13px;font-weight:600;color:var(--gold)}
+.schedule-bar{position:sticky;top:0;z-index:2000;background:linear-gradient(90deg,#a8842f,#e6c878,#c8a24a,#a8842f);text-align:center;padding:10px 0}
+.schedule-bar a{display:block;color:#0f1115;font-family:Oswald,sans-serif;font-weight:700;font-size:13px;letter-spacing:.1em;text-transform:uppercase}
+header.site-header{background:var(--dark);position:sticky;top:0;z-index:50;border-bottom:1px solid rgba(255,255,255,.08)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;max-width:1200px;margin:0 auto}
+.logo{display:flex;align-items:center;gap:10px}
+.logo img{height:44px;width:auto;border-radius:4px}
+.logo-text{font-family:Oswald,sans-serif;color:#fff;font-weight:700;font-size:18px;letter-spacing:.04em;text-transform:uppercase}
+.logo-text span{color:var(--gold)}
+nav.main-nav ul{list-style:none;display:flex;gap:28px}
+nav.main-nav a{color:#e7e8ec;font-family:Oswald,sans-serif;text-transform:uppercase;font-size:13px;letter-spacing:.05em;font-weight:500}
+nav.main-nav a:hover{color:var(--gold-lt)}
+.nav-cta{display:flex;align-items:center;gap:16px}
+.nav-phone{color:#e7e8ec;font-size:13px;font-family:Oswald,sans-serif;letter-spacing:.03em}
+.nav-phone strong{color:var(--gold-lt)}
+.nav-menu-toggle{display:none;align-items:center;gap:8px;line-height:1;background:none;border:1px solid rgba(255,255,255,.35);border-radius:8px;padding:8px 14px;color:#fff;font-size:22px;cursor:pointer}
+.nav-menu-toggle::after{content:"Menu";font-family:Oswald,system-ui,sans-serif;font-size:13px;letter-spacing:.05em;text-transform:uppercase;font-weight:500}
+.mobile-menu{display:none;background:var(--dark);border-top:1px solid rgba(255,255,255,.1)}
+.mobile-menu.open{display:block}
+.mobile-menu ul{list-style:none;padding:10px 24px 18px;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:2px 28px;max-width:1200px;margin:0 auto}
+.mobile-menu a{display:block;color:#e7e8ec;font-family:Oswald,sans-serif;text-transform:uppercase;font-size:13px;letter-spacing:.05em;font-weight:500;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+.mobile-menu a:hover{color:var(--gold-lt)}
+.booking-section{background:var(--dark);color:#fff}
+.booking-wrap{display:grid;grid-template-columns:1fr 1fr;border:1px solid rgba(200,162,74,.3)}
+.booking-info{background:linear-gradient(160deg,rgba(200,162,74,.12),rgba(15,17,21,.5)),url('/assets/team-hero.jpg') center 30%/cover;padding:64px 48px;display:flex;flex-direction:column;justify-content:center;min-height:520px}
+.booking-info .eyebrow{border:1px solid var(--gold);color:var(--gold-lt);display:inline-block;padding:8px 16px;margin-bottom:24px;font-size:12px;letter-spacing:.16em}
+.booking-info h1{color:#fff;font-size:clamp(30px,3.6vw,44px);margin-bottom:18px}
+.booking-info p{color:#e2e4e9;font-size:16px;margin-bottom:14px}
+.booking-info ul{list-style:none;margin-top:18px}
+.booking-info li{color:#e2e4e9;font-size:14.5px;padding:8px 0;display:flex;gap:10px}
+.booking-info li::before{content:"ðŸ€"}
+.booking-form-panel{background:#fff;color:var(--ink);padding:56px 48px}
+.booking-form-panel h2{font-size:24px;margin-bottom:6px;color:var(--ink)}
+.booking-form-panel .sub{color:#767a84;font-size:14px;margin-bottom:28px}
+form.tap-form{display:flex;flex-direction:column;gap:14px}
+form.tap-form label{font-family:Oswald,sans-serif;font-size:12px;text-transform:uppercase;letter-spacing:.06em;font-weight:600;color:var(--ink);margin-bottom:-6px}
+form.tap-form select,form.tap-form input[type=text],form.tap-form input[type=tel],form.tap-form input[type=email],form.tap-form input[type=number],form.tap-form textarea{padding:13px 14px;border:1px solid var(--line);border-radius:2px;font-size:15px;font-family:inherit;background:#fbfbfa;color:var(--ink)}
+form.tap-form textarea{resize:vertical;min-height:90px}
+form.tap-form select:focus,form.tap-form input:focus,form.tap-form textarea:focus{outline:none;border-color:var(--gold);background:#fff}
+form.tap-form button{margin-top:10px;background:linear-gradient(135deg,var(--gold-lt),var(--gold-dk));color:var(--dark);border:none;padding:16px;font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.06em;font-weight:700;font-size:15px;border-radius:2px;cursor:pointer;transition:filter .2s}
+form.tap-form button:hover{filter:brightness(1.08)}
+.form-note{font-size:12.5px;color:#8b8f98;margin-top:4px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+footer{background:var(--dark);color:#9a9ea8;padding:56px 0 24px;border-top:1px solid rgba(200,162,74,.2)}
+.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px;margin-bottom:44px}
+.footer-brand .logo-text{margin-bottom:14px;display:inline-block}
+.footer-brand p{font-size:14px;color:#8b8f98;max-width:300px;margin-bottom:14px}
+.footer-brand a.tlink{font-size:13px;font-weight:600;color:var(--gold-dk);text-decoration:underline}
+footer h4{font-family:Oswald,sans-serif;color:#fff;font-size:13px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:16px}
+footer ul{list-style:none}
+footer li{margin-bottom:10px;font-size:14px}
+footer a:hover{color:var(--gold-lt)}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:12.5px;color:#767a84}
+@media (max-width:980px){
+nav.main-nav{display:none}
+.nav-menu-toggle{display:inline-flex}
+.nav-inner{padding:12px 16px;gap:8px}
+.booking-wrap{grid-template-columns:1fr}
+.row2{grid-template-columns:1fr}
+.footer-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:600px){
+.logo-text{display:none}
+.footer-grid{grid-template-columns:1fr}
+.booking-info,.booking-form-panel{padding:36px 22px}
+}
+</style>
+</head>
+<body>
+
+<div class="schedule-bar"><a href="tel:+15176484170">CALL OR TEXT (517) 648-4170 WITH QUESTIONS</a></div>
+
+<header class="site-header">
+  <div class="nav-inner">
+    <a href="/" class="logo">
+      <img src="/assets/tap-logo.png" alt="The Academy Phoenix tiger head logo" width="44" height="44">
+      <span class="logo-text">The <span>Academy Phoenix</span></span>
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/programs/">Programs</a></li>
+        <li><a href="/academics/">Academics</a></li>
+        <li><a href="/schedule/">Schedule</a></li>
+        <li><a href="/apply/">Apply</a></li>
+      </ul>
+    </nav>
+    <div class="nav-cta">
+      <a href="tel:+15176484170" class="nav-phone">Call/Text <strong>(517) 648-4170</strong></a>
+      <a href="/apply/" class="btn btn-gold">Apply Now</a>
+    </div>
+    <button class="nav-menu-toggle" aria-label="Menu" onclick="document.getElementById('mobileMenu').classList.toggle('open')">â˜°</button>
+  </div>
+  <nav class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/programs/">Programs</a></li>
+      <li><a href="/academics/">Academics</a></li>
+      <li><a href="/schedule/">Schedule</a></li>
+      <li><a href="/apply/">Apply</a></li>
+      <li><a href="tel:+15176484170">Call/Text (517) 648-4170</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="booking-section">
+  <div class="booking-wrap">
+    <div class="booking-info">
+      <span class="eyebrow">Join The Academy Phoenix</span>
+      <h1>Apply Today to Be a TAP Tiger</h1>
+      <p>Reach your full potential. Tell us about your athlete and a member of our staff will follow up with next steps.</p>
+      <ul>
+        <li>Pay to Play, Education, or Bed and Basketball options</li>
+        <li>NBA-level personalized skills training</li>
+        <li>Academic advisors and NCAA eligibility compliance</li>
+        <li>30+ game season, October through March</li>
+        <li>Training at Swysh Den Basketball, Scottsdale AZ</li>
+      </ul>
+    </div>
+    <div class="booking-form-panel">
+      <h2>Application</h2>
+      <p class="sub">We'll respond by phone or email within 1&ndash;2 business days.</p>
+      <form class="tap-form" action="https://formspree.io/f/theacademyphxoffice@gmail.com" method="POST">
+        <div class="row2">
+          <div>
+            <label for="first">Athlete First Name</label>
+            <input type="text" id="first" name="athlete_first_name" required>
+          </div>
+          <div>
+            <label for="last">Athlete Last Name</label>
+            <input type="text" id="last" name="athlete_last_name" required>
+          </div>
+        </div>
+        <label for="age">Athlete Age</label>
+        <input type="number" id="age" name="athlete_age" min="14" max="23" required>
+        <label for="parent">Parent/Guardian Name</label>
+        <input type="text" id="parent" name="parent_name">
+        <div class="row2">
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" required>
+          </div>
+        </div>
+        <label for="package">Package Interested In</label>
+        <select id="package" name="package">
+          <option>Pay to Play &mdash; $500/mo</option>
+          <option>Education and Basketball &mdash; $750/mo</option>
+          <option>Bed and Basketball &mdash; $2,000/mo</option>
+          <option>Have It All (Full Service) &mdash; $2,500/mo</option>
+          <option>Full-time School Enrollment</option>
+          <option>Not Sure / Talk to a Coach</option>
+        </select>
+        <label for="message">Tell Us About Your Athlete</label>
+        <textarea id="message" name="message" placeholder="Current school, grad year, position, experience, goals..."></textarea>
+        <button type="submit">Submit Application</button>
+        <p class="form-note">By submitting, you agree to be contacted by The Academy Phoenix about our program. This is an initial inquiry, not a binding enrollment.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="logo-text">The <span>Academy Phoenix</span></span>
+        <p>The Academy Phoenix is a 501(c)(3) non-profit, faith-based High School and Post Grad basketball program based in Scottsdale, AZ.</p>
+        <a href="https://www.swyshden.com" target="_blank" rel="noopener" class="tlink">Home base: Swysh Den Basketball &rarr;</a>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="/about/">About Us</a></li>
+          <li><a href="/programs/">Programs &amp; Pricing</a></li>
+          <li><a href="/academics/">Academics</a></li>
+          <li><a href="/schedule/">Season Schedule</a></li>
+          <li><a href="/apply/">Apply</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li>Swysh Den Basketball</li>
+          <li>8212 E Evans Rd</li>
+          <li>Scottsdale, AZ 85260</li>
+          <li><a href="tel:+15176484170">Call/Text (517) 648-4170</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 The Academy Phoenix. All rights reserved.</span>
+      <span>A 501(c)(3) non-profit &middot; <a href="tel:+15176484170" style="color:inherit">(517) 648-4170</a></span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
