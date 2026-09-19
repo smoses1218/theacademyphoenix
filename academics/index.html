@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Academics | The Academy Phoenix</title>
+<meta name="description" content="The Academy Phoenix offers two educational pathways: a Post-Graduate program with Justice University, and a High School program through TAP Elite Prep.">
+<link rel="canonical" href="https://www.theacademyphoenix.org/academics/">
+<meta property="og:title" content="Academics | The Academy Phoenix">
+<meta property="og:description" content="Post-Grad courses with Justice University, or High School graduation requirements through TAP Elite Prep.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#16181d;--dark:#0f1115;--dark2:#1b1f27;--gold:#c8a24a;--gold-lt:#e6c878;--gold-dk:#a8842f;--bg:#ffffff;--bg-soft:#f7f6f3;--line:#e6e8ee}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,.oswald{font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.02em;font-weight:700;line-height:1.08}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit;text-decoration:none}
+.container{max-width:1200px;margin:0 auto;padding:0 24px}
+.btn{display:inline-block;font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.06em;font-weight:600;font-size:14px;padding:16px 32px;border-radius:2px;cursor:pointer;border:2px solid transparent;transition:.2s}
+.btn-gold{background:linear-gradient(135deg,#e6c878,#a8842f);color:#0f1115;border-color:#c8a24a;box-shadow:0 3px 10px rgba(200,162,74,.4)}
+.btn-gold:hover{filter:brightness(1.08);transform:translateY(-1px)}
+.eyebrow{font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.18em;font-size:13px;font-weight:600;color:var(--gold)}
+.schedule-bar{position:sticky;top:0;z-index:2000;background:linear-gradient(90deg,#a8842f,#e6c878,#c8a24a,#a8842f);text-align:center;padding:10px 0}
+.schedule-bar a{display:block;color:#0f1115;font-family:Oswald,sans-serif;font-weight:700;font-size:13px;letter-spacing:.1em;text-transform:uppercase}
+header.site-header{background:var(--dark);position:sticky;top:0;z-index:50;border-bottom:1px solid rgba(255,255,255,.08)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;max-width:1200px;margin:0 auto}
+.logo{display:flex;align-items:center;gap:10px}
+.logo img{height:44px;width:auto;border-radius:4px}
+.logo-text{font-family:Oswald,sans-serif;color:#fff;font-weight:700;font-size:18px;letter-spacing:.04em;text-transform:uppercase}
+.logo-text span{color:var(--gold)}
+nav.main-nav ul{list-style:none;display:flex;gap:28px}
+nav.main-nav a{color:#e7e8ec;font-family:Oswald,sans-serif;text-transform:uppercase;font-size:13px;letter-spacing:.05em;font-weight:500}
+nav.main-nav a:hover{color:var(--gold-lt)}
+.nav-cta{display:flex;align-items:center;gap:16px}
+.nav-phone{color:#e7e8ec;font-size:13px;font-family:Oswald,sans-serif;letter-spacing:.03em}
+.nav-phone strong{color:var(--gold-lt)}
+.nav-menu-toggle{display:none;align-items:center;gap:8px;line-height:1;background:none;border:1px solid rgba(255,255,255,.35);border-radius:8px;padding:8px 14px;color:#fff;font-size:22px;cursor:pointer}
+.nav-menu-toggle::after{content:"Menu";font-family:Oswald,system-ui,sans-serif;font-size:13px;letter-spacing:.05em;text-transform:uppercase;font-weight:500}
+.mobile-menu{display:none;background:var(--dark);border-top:1px solid rgba(255,255,255,.1)}
+.mobile-menu.open{display:block}
+.mobile-menu ul{list-style:none;padding:10px 24px 18px;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:2px 28px;max-width:1200px;margin:0 auto}
+.mobile-menu a{display:block;color:#e7e8ec;font-family:Oswald,sans-serif;text-transform:uppercase;font-size:13px;letter-spacing:.05em;font-weight:500;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+.mobile-menu a:hover{color:var(--gold-lt)}
+.page-hero{background:var(--dark);color:#fff;padding:64px 0 56px;border-bottom:1px solid rgba(200,162,74,.25)}
+.page-hero .eyebrow{margin-bottom:14px;display:block}
+.page-hero h1{font-size:clamp(32px,5vw,54px);color:#fff}
+.page-hero p{color:#c3c5cc;font-size:16px;max-width:640px;margin-top:14px}
+.section{padding:88px 0}
+.section-soft{background:var(--bg-soft)}
+.program-groups{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+.program-group{background:#fff;border-top:3px solid var(--gold);padding:34px 30px;border-radius:2px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);border-left:1px solid var(--line)}
+.program-group .icon{font-family:Oswald,sans-serif;font-weight:700;color:var(--gold-dk);font-size:13px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:14px}
+.program-group h3{font-size:24px;margin-bottom:14px;color:var(--ink)}
+.program-group p{font-size:15.5px;color:#565a63}
+.section-head{max-width:680px;margin-bottom:48px}
+.section-head.center{margin-left:auto;margin-right:auto;text-align:center}
+.section-head h2{font-size:clamp(28px,4vw,46px);margin-top:14px}
+.section-head p{font-size:16px;color:#565a63;margin-top:16px}
+footer{background:var(--dark);color:#9a9ea8;padding:56px 0 24px;border-top:1px solid rgba(200,162,74,.2)}
+.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px;margin-bottom:44px}
+.footer-brand .logo-text{margin-bottom:14px;display:inline-block}
+.footer-brand p{font-size:14px;color:#8b8f98;max-width:300px;margin-bottom:14px}
+.footer-brand a.tlink{font-size:13px;font-weight:600;color:var(--gold-dk);text-decoration:underline}
+footer h4{font-family:Oswald,sans-serif;color:#fff;font-size:13px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:16px}
+footer ul{list-style:none}
+footer li{margin-bottom:10px;font-size:14px}
+footer a:hover{color:var(--gold-lt)}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:12.5px;color:#767a84}
+@media (max-width:980px){
+nav.main-nav{display:none}
+.nav-menu-toggle{display:inline-flex}
+.nav-inner{padding:12px 16px;gap:8px}
+.program-groups{grid-template-columns:1fr}
+.footer-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:600px){
+.logo-text{display:none}
+.section{padding:56px 0}
+.footer-grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<div class="schedule-bar"><a href="/apply/">APPLY NOW FOR THE 2026-27 SEASON</a></div>
+
+<header class="site-header">
+  <div class="nav-inner">
+    <a href="/" class="logo">
+      <img src="/assets/tap-logo.png" alt="The Academy Phoenix tiger head logo" width="44" height="44">
+      <span class="logo-text">The <span>Academy Phoenix</span></span>
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/programs/">Programs</a></li>
+        <li><a href="/academics/">Academics</a></li>
+        <li><a href="/schedule/">Schedule</a></li>
+        <li><a href="/apply/">Apply</a></li>
+      </ul>
+    </nav>
+    <div class="nav-cta">
+      <a href="tel:+15176484170" class="nav-phone">Call/Text <strong>(517) 648-4170</strong></a>
+      <a href="/apply/" class="btn btn-gold">Apply Now</a>
+    </div>
+    <button class="nav-menu-toggle" aria-label="Menu" onclick="document.getElementById('mobileMenu').classList.toggle('open')">â˜°</button>
+  </div>
+  <nav class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/programs/">Programs</a></li>
+      <li><a href="/academics/">Academics</a></li>
+      <li><a href="/schedule/">Schedule</a></li>
+      <li><a href="/apply/">Apply</a></li>
+      <li><a href="tel:+15176484170">Call/Text (517) 648-4170</a></li>
+    </ul>
+  </nav>
+</header>
+
+<div class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Basketball &amp; Education</span>
+    <h1>Academics</h1>
+    <p>The Academy Phoenix offers two distinct educational pathways for its high school and post-graduate student-athletes.</p>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="program-groups">
+      <div class="program-group">
+        <div class="icon">Post-Graduate Program</div>
+        <h3>Justice University</h3>
+        <p>We partner with Justice University to offer college-level courses, helping our post-grad student-athletes gain a head start on their academic careers. Student-athletes live off-campus in a Team House only 10 minutes from Justice University, and practice, compete, and attend classes directly at the university's brick-and-mortar campus.</p>
+      </div>
+      <div class="program-group">
+        <div class="icon">High School Program</div>
+        <h3>TAP Elite High School Prep</h3>
+        <p>High school students can fulfill all their graduation requirements through our exclusive TAP Elite Prep School &mdash; accelerating athletic development while seamlessly continuing their high school education.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-soft">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">International Assist Initiative</span>
+      <h2>Support for International &amp; National Athletes</h2>
+      <p>TAP partners with International Assist Initiative (IAI) to offer comprehensive services, ensuring that international and national students have a seamless and successful experience as they embark on their academic and athletic journeys in the U.S.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container" style="text-align:center">
+    <span class="eyebrow">Ready to Get Started?</span>
+    <h2 style="margin-top:14px">See Full Program Pricing</h2>
+    <a href="/programs/" class="btn btn-gold" style="margin-top:28px">View Programs &amp; Pricing</a>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="logo-text">The <span>Academy Phoenix</span></span>
+        <p>The Academy Phoenix is a 501(c)(3) non-profit, faith-based High School and Post Grad basketball program based in Scottsdale, AZ.</p>
+        <a href="https://www.swyshden.com" target="_blank" rel="noopener" class="tlink">Home base: Swysh Den Basketball &rarr;</a>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="/about/">About Us</a></li>
+          <li><a href="/programs/">Programs &amp; Pricing</a></li>
+          <li><a href="/academics/">Academics</a></li>
+          <li><a href="/schedule/">Season Schedule</a></li>
+          <li><a href="/apply/">Apply</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li>Swysh Den Basketball</li>
+          <li>8212 E Evans Rd</li>
+          <li>Scottsdale, AZ 85260</li>
+          <li><a href="tel:+15176484170">Call/Text (517) 648-4170</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 The Academy Phoenix. All rights reserved.</span>
+      <span>A 501(c)(3) non-profit &middot; <a href="tel:+15176484170" style="color:inherit">(517) 648-4170</a></span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
