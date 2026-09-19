@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Academy Phoenix | High School &amp; Post Grad Basketball Program, Scottsdale AZ</title>
+<meta name="description" content="The Academy Phoenix (TAP) is a 501(c)(3) non-profit, faith-based High School and Post Grad basketball program based at Swysh Den Basketball in Scottsdale, AZ. Skills training, academics, and a 10-month competitive season.">
+<link rel="canonical" href="https://www.theacademyphoenix.org/">
+<meta property="og:title" content="The Academy Phoenix | High School &amp; Post Grad Basketball Program">
+<meta property="og:description" content="A 501(c)(3) non-profit basketball program built on integrity, perseverance, and servant leadership. Based at Swysh Den Basketball, Scottsdale AZ.">
+<meta property="og:image" content="https://www.theacademyphoenix.org/assets/team-hero.jpg">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#16181d;--dark:#0f1115;--dark2:#1b1f27;--gold:#c8a24a;--gold-lt:#e6c878;--gold-dk:#a8842f;--bg:#ffffff;--bg-soft:#f7f6f3;--line:#e6e8ee}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4,.oswald{font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.02em;font-weight:700;line-height:1.08}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit;text-decoration:none}
+.container{max-width:1200px;margin:0 auto;padding:0 24px}
+.btn{display:inline-block;font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.06em;font-weight:600;font-size:14px;padding:16px 32px;border-radius:2px;cursor:pointer;border:2px solid transparent;transition:.2s}
+.btn-gold{background:linear-gradient(135deg,#e6c878,#a8842f);color:#0f1115;border-color:#c8a24a;box-shadow:0 3px 10px rgba(200,162,74,.4)}
+.btn-gold:hover{filter:brightness(1.08);transform:translateY(-1px)}
+.btn-outline{background:transparent;color:#fff;border-color:rgba(255,255,255,.4)}
+.btn-outline:hover{border-color:var(--gold);color:var(--gold-lt)}
+.eyebrow{font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.18em;font-size:13px;font-weight:600;color:var(--gold)}
+.schedule-bar{position:sticky;top:0;z-index:2000;background:linear-gradient(90deg,#a8842f,#e6c878,#c8a24a,#a8842f);text-align:center;padding:10px 0}
+.schedule-bar a{display:block;color:#0f1115;font-family:Oswald,sans-serif;font-weight:700;font-size:13px;letter-spacing:.1em;text-transform:uppercase}
+.schedule-bar a:hover{text-decoration:underline}
+header.site-header{background:var(--dark);position:sticky;top:0;z-index:50;border-bottom:1px solid rgba(255,255,255,.08)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:14px 24px;max-width:1200px;margin:0 auto}
+.logo{display:flex;align-items:center;gap:10px}
+.logo img{height:44px;width:auto;border-radius:4px}
+.logo-text{font-family:Oswald,sans-serif;color:#fff;font-weight:700;font-size:18px;letter-spacing:.04em;text-transform:uppercase}
+.logo-text span{color:var(--gold)}
+nav.main-nav ul{list-style:none;display:flex;gap:28px}
+nav.main-nav a{color:#e7e8ec;font-family:Oswald,sans-serif;text-transform:uppercase;font-size:13px;letter-spacing:.05em;font-weight:500}
+nav.main-nav a:hover{color:var(--gold-lt)}
+.nav-cta{display:flex;align-items:center;gap:16px}
+.nav-phone{color:#e7e8ec;font-size:13px;font-family:Oswald,sans-serif;letter-spacing:.03em}
+.nav-phone strong{color:var(--gold-lt)}
+.nav-menu-toggle{display:none;align-items:center;gap:8px;line-height:1;background:none;border:1px solid rgba(255,255,255,.35);border-radius:8px;padding:8px 14px;color:#fff;font-size:22px;cursor:pointer}
+.nav-menu-toggle:hover{border-color:var(--gold-lt);color:var(--gold-lt)}
+.nav-menu-toggle::after{content:"Menu";font-family:Oswald,system-ui,sans-serif;font-size:13px;letter-spacing:.05em;text-transform:uppercase;font-weight:500}
+.mobile-menu{display:none;background:var(--dark);border-top:1px solid rgba(255,255,255,.1)}
+.mobile-menu.open{display:block}
+.mobile-menu ul{list-style:none;padding:10px 24px 18px;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:2px 28px;max-width:1200px;margin:0 auto}
+.mobile-menu a{display:block;color:#e7e8ec;font-family:Oswald,sans-serif;text-transform:uppercase;font-size:13px;letter-spacing:.05em;font-weight:500;padding:10px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+.mobile-menu a:hover{color:var(--gold-lt)}
+.hero{position:relative;min-height:70vh;display:flex;align-items:center;background:linear-gradient(rgba(15,17,21,.6) 0%,rgba(15,17,21,.86) 65%,rgba(15,17,21,.97) 100%),url('/assets/team-hero.jpg') center 22% / cover no-repeat;color:#fff}
+.hero-inner{max-width:1200px;margin:0 auto;padding:100px 24px 80px;width:100%}
+.hero-eyebrow{display:inline-block;border:1px solid var(--gold);color:var(--gold-lt);font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.16em;font-size:12px;font-weight:600;padding:8px 16px;margin-bottom:24px}
+.hero h1{font-size:clamp(38px,6.4vw,76px);color:#fff;max-width:900px;margin-bottom:20px}
+.hero h1 .accent{color:var(--gold-lt)}
+.hero-sub{font-size:18px;color:#d6d8de;max-width:600px;margin-bottom:36px;font-weight:400}
+.hero-actions{display:flex;gap:16px;flex-wrap:wrap}
+.stat-band{background:var(--dark2);border-top:1px solid rgba(200,162,74,.25);border-bottom:1px solid rgba(200,162,74,.25)}
+.stat-grid{display:grid;grid-template-columns:repeat(4,1fr);max-width:1200px;margin:0 auto}
+.stat{text-align:center;padding:40px 20px;border-right:1px solid rgba(255,255,255,.08)}
+.stat:last-child{border-right:none}
+.stat .num{font-family:Oswald,sans-serif;font-weight:700;font-size:clamp(28px,3.6vw,42px);color:var(--gold-lt);line-height:1}
+.stat .label{margin-top:10px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#b9bcc5;font-family:Oswald,sans-serif;font-weight:500}
+.section{padding:88px 0}
+.section-dark{background:var(--dark);color:#fff}
+.section-soft{background:var(--bg-soft)}
+.section-head{max-width:680px;margin-bottom:48px}
+.section-head.center{margin-left:auto;margin-right:auto;text-align:center}
+.section-head h2{font-size:clamp(28px,4vw,46px);margin-top:14px}
+.section-dark .section-head h2{color:#fff}
+.section-head p{font-size:16px;color:#565a63;margin-top:16px}
+.section-dark .section-head p{color:#a8abb4}
+.highlight-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.highlight-card{background:var(--dark2);border-top:3px solid var(--gold);padding:30px 28px;border-radius:2px}
+.highlight-card .tag{font-family:Oswald,sans-serif;text-transform:uppercase;font-size:13px;letter-spacing:.08em;color:var(--gold-lt);font-weight:700;margin-bottom:14px}
+.highlight-card p,.highlight-card li{font-size:15px;color:#c3c5cc}
+.highlight-card ul{list-style:none}
+.highlight-card li{padding:5px 0}
+.highlight-card li::before{content:"â€” "}
+.program-groups{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.program-group{background:#fff;border-top:3px solid var(--gold);padding:30px 26px;border-radius:2px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);border-left:1px solid var(--line)}
+.program-group .icon{font-family:Oswald,sans-serif;font-weight:700;color:var(--gold-dk);font-size:13px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:14px}
+.program-group h3{font-size:21px;margin-bottom:12px;color:var(--ink)}
+.program-group p{font-size:14.5px;color:#565a63;margin-bottom:16px}
+.program-group a.tlink{font-family:Oswald,sans-serif;text-transform:uppercase;font-size:12.5px;letter-spacing:.06em;font-weight:700;color:var(--gold-dk)}
+.program-group a.tlink:hover{color:var(--gold)}
+.pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.price-card{background:var(--dark2);color:#fff;border-radius:2px;border:1px solid rgba(255,255,255,.08);position:relative;overflow:hidden}
+.price-card.featured{border:1px solid var(--gold);background:linear-gradient(160deg,#1f2430,#161a22)}
+.price-card .badge{position:absolute;top:0;right:0;background:var(--gold);color:var(--dark);font-family:Oswald,sans-serif;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:6px 14px;border-radius:0 0 0 4px}
+.price-card img{width:100%;aspect-ratio:16/10;object-fit:cover}
+.price-card .body{padding:28px 26px 30px}
+.price-card .age{color:var(--gold-lt);font-size:12.5px;font-family:Oswald,sans-serif;letter-spacing:.06em;text-transform:uppercase;margin-bottom:10px}
+.price-card h3{font-size:21px;color:#fff;margin-bottom:10px}
+.price-card .price{font-family:Oswald,sans-serif;font-size:32px;font-weight:700;color:#fff;margin-bottom:2px}
+.price-card .price span{font-size:14px;color:#9a9ea8;font-weight:400;text-transform:none}
+.price-card p.desc{font-size:14px;color:#c3c5cc;margin-top:10px}
+.staff-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.staff-card{background:var(--dark2);border-radius:2px;overflow:hidden;border:1px solid rgba(255,255,255,.08)}
+.staff-card img{width:100%;aspect-ratio:1/1;object-fit:cover;object-position:top center}
+.staff-card .info{padding:20px}
+.staff-card .role{font-family:Oswald,sans-serif;text-transform:uppercase;font-size:11px;letter-spacing:.07em;color:var(--gold-lt);margin-bottom:6px}
+.staff-card h3{font-size:19px;color:#fff;margin-bottom:10px}
+.staff-card p{font-size:13.5px;color:#c3c5cc}
+.faq-list{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.faq-item{background:#fff;padding:28px 26px}
+.faq-item h3{font-size:17px;margin-bottom:10px;color:var(--ink);text-transform:none;letter-spacing:0;line-height:1.25}
+.faq-item p{font-size:14.5px;color:#565a63}
+.booking-section{background:var(--dark);color:#fff}
+.booking-wrap{display:grid;grid-template-columns:1fr 1fr;border:1px solid rgba(200,162,74,.3)}
+.booking-info{background:linear-gradient(160deg,rgba(200,162,74,.12),rgba(15,17,21,.4)),url('/assets/pkg-bed-and-basketball.jpg') center/cover;padding:52px 44px;display:flex;flex-direction:column;justify-content:center}
+.booking-info h2{color:#fff;font-size:clamp(26px,3.2vw,36px);margin-bottom:16px}
+.booking-info p{color:#e2e4e9;font-size:15.5px;margin-bottom:12px}
+.booking-info ul{list-style:none;margin-top:16px}
+.booking-info li{color:#e2e4e9;font-size:14.5px;padding:7px 0;display:flex;gap:10px}
+.booking-info li::before{content:"ðŸ€"}
+.booking-form-panel{background:#fff;color:var(--ink);padding:44px}
+.booking-form-panel h3{font-size:21px;margin-bottom:6px;color:var(--ink)}
+.booking-form-panel .sub{color:#767a84;font-size:14px;margin-bottom:24px}
+form.tap-form{display:flex;flex-direction:column;gap:14px}
+form.tap-form label{font-family:Oswald,sans-serif;font-size:12px;text-transform:uppercase;letter-spacing:.06em;font-weight:600;color:var(--ink);margin-bottom:-6px}
+form.tap-form select,form.tap-form input[type=text],form.tap-form input[type=tel],form.tap-form input[type=email],form.tap-form textarea{padding:13px 14px;border:1px solid var(--line);border-radius:2px;font-size:15px;font-family:inherit;background:#fbfbfa;color:var(--ink)}
+form.tap-form textarea{resize:vertical;min-height:80px}
+form.tap-form select:focus,form.tap-form input:focus,form.tap-form textarea:focus{outline:none;border-color:var(--gold);background:#fff}
+form.tap-form button{margin-top:10px;background:linear-gradient(135deg,var(--gold-lt),var(--gold-dk));color:var(--dark);border:none;padding:16px;font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.06em;font-weight:700;font-size:15px;border-radius:2px;cursor:pointer;transition:filter .2s}
+form.tap-form button:hover{filter:brightness(1.08)}
+.form-note{font-size:12.5px;color:#8b8f98;margin-top:4px}
+footer{background:var(--dark);color:#9a9ea8;padding:56px 0 24px;border-top:1px solid rgba(200,162,74,.2)}
+.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px;margin-bottom:44px}
+.footer-brand .logo-text{margin-bottom:14px;display:inline-block}
+.footer-brand p{font-size:14px;color:#8b8f98;max-width:300px;margin-bottom:14px}
+.footer-brand a.tlink{font-size:13px;font-weight:600;color:var(--gold-dk);text-decoration:underline}
+footer h4{font-family:Oswald,sans-serif;color:#fff;font-size:13px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:16px}
+footer ul{list-style:none}
+footer li{margin-bottom:10px;font-size:14px}
+footer a:hover{color:var(--gold-lt)}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.08);padding-top:24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:12.5px;color:#767a84}
+.social-row{margin-top:20px;padding-top:20px;border-top:1px solid rgba(255,255,255,.08);display:flex;gap:12px;flex-wrap:wrap}
+.social-row a{display:inline-flex;width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);align-items:center;justify-content:center}
+@media (max-width:980px){
+nav.main-nav{display:none}
+.nav-menu-toggle{display:inline-flex}
+.nav-inner{padding:12px 16px;gap:8px}
+.stat-grid{grid-template-columns:repeat(2,1fr)}
+.stat{border-bottom:1px solid rgba(255,255,255,.08)}
+.program-groups{grid-template-columns:repeat(2,1fr)}
+.pricing-grid{grid-template-columns:1fr}
+.highlight-grid{grid-template-columns:1fr}
+.staff-grid{grid-template-columns:repeat(2,1fr)}
+.faq-list{grid-template-columns:1fr}
+.booking-wrap{grid-template-columns:1fr}
+.footer-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:600px){
+.logo-text{display:none}
+.section{padding:56px 0}
+.footer-grid{grid-template-columns:1fr}
+.staff-grid{grid-template-columns:1fr}
+.booking-info,.booking-form-panel{padding:32px 22px}
+.hero-inner{padding:80px 20px 60px}
+}
+</style>
+</head>
+<body>
+
+<div class="schedule-bar"><a href="/apply/">APPLY NOW FOR THE 2026-27 SEASON</a></div>
+
+<header class="site-header">
+  <div class="nav-inner">
+    <a href="/" class="logo">
+      <img src="/assets/tap-logo.png" alt="The Academy Phoenix tiger head logo" width="44" height="44">
+      <span class="logo-text">The <span>Academy Phoenix</span></span>
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/programs/">Programs</a></li>
+        <li><a href="/academics/">Academics</a></li>
+        <li><a href="/schedule/">Schedule</a></li>
+        <li><a href="/apply/">Apply</a></li>
+      </ul>
+    </nav>
+    <div class="nav-cta">
+      <a href="tel:+15176484170" class="nav-phone">Call/Text <strong>(517) 648-4170</strong></a>
+      <a href="/apply/" class="btn btn-gold">Apply Now</a>
+    </div>
+    <button class="nav-menu-toggle" aria-label="Menu" onclick="document.getElementById('mobileMenu').classList.toggle('open')">â˜°</button>
+  </div>
+  <nav class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/programs/">Programs</a></li>
+      <li><a href="/academics/">Academics</a></li>
+      <li><a href="/schedule/">Schedule</a></li>
+      <li><a href="/apply/">Apply</a></li>
+      <li><a href="tel:+15176484170">Call/Text (517) 648-4170</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero" id="top">
+  <div class="hero-inner">
+    <span class="hero-eyebrow">501(c)(3) Non-Profit &middot; Donations Are Tax Deductible</span>
+    <h1>THE ACADEMY <span class="accent">PHOENIX</span></h1>
+    <p class="hero-sub">A High School &amp; Post Grad Basketball Program built on integrity, perseverance, and servant leadership &mdash; on and off the court. Based at Swysh Den Basketball in Scottsdale, AZ.</p>
+    <div class="hero-actions">
+      <a href="/apply/" class="btn btn-gold">Apply Now</a>
+      <a href="tel:+15176484170" class="btn btn-outline">Donate &mdash; Call/Text (517) 648-4170</a>
+    </div>
+  </div>
+</section>
+
+<div class="stat-band">
+  <div class="stat-grid">
+    <div class="stat"><div class="num">2024</div><div class="label">Program Founded</div></div>
+    <div class="stat"><div class="num">30+</div><div class="label">Games Per Season</div></div>
+    <div class="stat"><div class="num">10</div><div class="label">Month Season</div></div>
+    <div class="stat"><div class="num">16&ndash;22</div><div class="label">Eligible Age Range</div></div>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Welcome to the Tiger's Den</span>
+      <h2>A community built on growth, on and off the court</h2>
+      <p>Welcome to The Academy Phoenix Basketball Program. Our goal is to drive a community of passionate individuals committed to growth both on and off the court. This program is designed to challenge you, not only as an athlete but as a person &mdash; shaping you into a leader who embodies integrity, perseverance, and skill.</p>
+    </div>
+    <div class="highlight-grid">
+      <div class="highlight-card">
+        <div class="tag">We Are</div>
+        <ul>
+          <li>A Skilled Competitive Training Program</li>
+          <li>A Mentorship Program</li>
+          <li>A Team</li>
+          <li>A Family</li>
+        </ul>
+      </div>
+      <div class="highlight-card">
+        <div class="tag">Our Goal</div>
+        <p>To be the bridge from high school basketball to high level American Collegiate Basketball Programs.</p>
+      </div>
+      <div class="highlight-card">
+        <div class="tag">Our Mission</div>
+        <p>Be a program built on values of prioritizing character development and growth alongside premier basketball training.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-soft">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">What We Offer</span>
+      <h2>Basketball, Academics &amp; a Path Forward</h2>
+    </div>
+    <div class="program-groups">
+      <div class="program-group">
+        <div class="icon">Academics</div>
+        <h3>Academics</h3>
+        <p>TAP partners with Justice University and TAP Elite Prep, so athletes can complete their high school diploma or get ahead on their college degree.</p>
+        <a href="/academics/" class="tlink">Learn More &rarr;</a>
+      </div>
+      <div class="program-group">
+        <div class="icon">Programs</div>
+        <h3>Programs</h3>
+        <p>Pay to Play, Education and Basketball, and Bed and Basketball &mdash; flexible options built around where each athlete is in their journey.</p>
+        <a href="/programs/" class="tlink">See Packages &rarr;</a>
+      </div>
+      <div class="program-group">
+        <div class="icon">Training</div>
+        <h3>Training</h3>
+        <p>TAP partners with International Assist Initiative (IAI) to give international and national student-athletes a seamless, successful experience.</p>
+        <a href="/about/" class="tlink">Meet the Team &rarr;</a>
+      </div>
+      <div class="program-group">
+        <div class="icon">Games</div>
+        <h3>Games</h3>
+        <p>Our season runs October through March, featuring 30+ games against Post-Grad Academies and Prep Schools across the Phoenix area.</p>
+        <a href="/schedule/" class="tlink">Season Schedule &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-dark">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Our Packages</span>
+      <h2>Find the Right Fit for Your Athlete</h2>
+      <p>Full pricing, included benefits, and our Full Service options are on the Programs page.</p>
+    </div>
+    <div class="pricing-grid">
+      <div class="price-card">
+        <img src="/assets/pkg-pay-to-play.jpg" alt="TAP athlete dribbling the ball in practice">
+        <div class="body">
+          <div class="age">Eligible For Ages 16&ndash;22</div>
+          <h3>Pay to Play</h3>
+          <div class="price">$500<span>/month</span></div>
+          <p class="desc">Our core competitive training program.</p>
+        </div>
+      </div>
+      <div class="price-card featured">
+        <span class="badge">Most Popular</span>
+        <img src="/assets/pkg-education.jpg" alt="TAP team huddled together before a game">
+        <div class="body">
+          <div class="age">Options for College Education</div>
+          <h3>Education and Basketball</h3>
+          <div class="price">$750<span>/month</span></div>
+          <p class="desc">Training plus academic pathways and accountability.</p>
+        </div>
+      </div>
+      <div class="price-card">
+        <img src="/assets/pkg-bed-and-basketball.jpg" alt="TAP athlete pointing at the camera in front of a TAP backdrop">
+        <div class="body">
+          <div class="age">Open to Domestic and International</div>
+          <h3>Bed and Basketball</h3>
+          <div class="price">$2,000<span>/month</span></div>
+          <p class="desc">For athletes relocating to train with TAP full-time.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head center">
+      <span class="eyebrow">Frequently Asked Questions</span>
+      <h2>Got Questions? We've Got Answers</h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <h3>Do you have scholarships?</h3>
+        <p>We have sponsors who love supporting individual athletes that they believe are upcoming talent. Athletes are encouraged to find sponsorship within their circles of influence, as not all can be given a scholarship through our program, but can find funding through a personal sponsor.</p>
+      </div>
+      <div class="faq-item">
+        <h3>How long is this program?</h3>
+        <p>This is an at-will program, allowing your athlete to leave when they wish, but for best outcome, a full 10-month season or full calendar year are recommended to ensure your athlete gets the opportunity they signed up for.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Who is the team staff who will be mentoring my child?</h3>
+        <p>Take a moment and get to know each of our staff. Handpicked for skill, adaptability, and caring personalities &mdash; each of our staff finds pride in helping grow tomorrow's future.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Where does TAP train and play?</h3>
+        <p>Our home base is Swysh Den Basketball, 8212 E Evans Rd, Scottsdale, AZ 85260 &mdash; Scottsdale's premier indoor training facility, offering weight room training, jump training, Vertimax, and recovery tools.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="booking-section" id="apply">
+  <div class="booking-wrap">
+    <div class="booking-info">
+      <span class="hero-eyebrow">Join The Academy Phoenix</span>
+      <h2>Apply Today to Be a TAP Tiger</h2>
+      <p>Give us your information below and we'll follow up with more information about our High School and Post Grad Basketball Program.</p>
+      <ul>
+        <li>Pay to Play, Education, or Bed and Basketball options</li>
+        <li>NBA-level personalized skills training</li>
+        <li>Academic advisors and NCAA eligibility compliance</li>
+        <li>30+ game season, October through March</li>
+      </ul>
+    </div>
+    <div class="booking-form-panel">
+      <h3>Get In Touch</h3>
+      <p class="sub">We'll respond by phone or email within 1-2 business days.</p>
+      <form class="tap-form" action="https://formspree.io/f/theacademyphxoffice@gmail.com" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" required>
+        <label for="interest">I'm Interested In</label>
+        <select id="interest" name="interest">
+          <option>Joining the High School Team</option>
+          <option>Joining the Post Grad Team</option>
+          <option>Pay to Play</option>
+          <option>Education and Basketball</option>
+          <option>Bed and Basketball</option>
+          <option>Talking to a Coach</option>
+          <option>Making a Donation</option>
+        </select>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Tell us about your athlete..."></textarea>
+        <button type="submit">Submit</button>
+        <p class="form-note">By submitting, you agree to be contacted by The Academy Phoenix about our program.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="logo-text">The <span>Academy Phoenix</span></span>
+        <p>The Academy Phoenix is a 501(c)(3) non-profit, faith-based High School and Post Grad basketball program based in Scottsdale, AZ.</p>
+        <a href="https://www.swyshden.com" target="_blank" rel="noopener" class="tlink">Home base: Swysh Den Basketball &rarr;</a>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="/about/">About Us</a></li>
+          <li><a href="/programs/">Programs &amp; Pricing</a></li>
+          <li><a href="/academics/">Academics</a></li>
+          <li><a href="/schedule/">Season Schedule</a></li>
+          <li><a href="/apply/">Apply</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <ul>
+          <li>Swysh Den Basketball</li>
+          <li>8212 E Evans Rd</li>
+          <li>Scottsdale, AZ 85260</li>
+          <li><a href="tel:+15176484170">Call/Text (517) 648-4170</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 The Academy Phoenix. All rights reserved.</span>
+      <span>A 501(c)(3) non-profit &middot; <a href="tel:+15176484170" style="color:inherit">(517) 648-4170</a></span>
+    </div>
+    <div class="social-row">
+      <a href="https://www.instagram.com/theacademyphx/" target="_blank" rel="noopener" aria-label="Instagram"><svg width="17" height="17" viewBox="0 0 24 24" fill="#fff"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.012-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+      <a href="https://www.youtube.com/results?search_query=the+academy+phoenix" target="_blank" rel="noopener" aria-label="YouTube"><svg width="17" height="17" viewBox="0 0 24 24" fill="#fff"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
